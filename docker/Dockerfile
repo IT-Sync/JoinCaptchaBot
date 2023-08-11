@@ -4,7 +4,7 @@
 FROM python:3.8.8-slim-buster AS base
 
 # Build ARGs
-ARG BOT_PROJECT="galaxy-captcha-bot"
+ARG BOT_PROJECT="captcha-bot"
 ARG BOT_USER="nobody"
 ARG BOT_GROUP="nogroup"
 ARG BOT_HOME_DIR="/srv"
